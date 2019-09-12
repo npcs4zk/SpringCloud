@@ -14,11 +14,11 @@
 ### maven仓库配置
 请将maven的仓库配置为spring的官方仓库，而不是用阿里的仓库（特别注意）
 ```
-		<repository>  
-	    	<id>springsource-repos</id>  
-	    	<name>SpringSource Repository</name>  
-	    	<url>http://repo.spring.io/release/</url>  
-		</repository>
+<repository>  
+    <id>springsource-repos</id>  
+    <name>SpringSource Repository</name>  
+    <url>http://repo.spring.io/release/</url>  
+</repository>
 ```
 ### 开发环境搭建
 
