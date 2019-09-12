@@ -11,7 +11,15 @@
 - [git](https://git-scm.com/)
 - [java8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 
 - [maven](http://maven.apache.org/) 
-
+### maven仓库配置
+请将maven的仓库配置为spring的官方仓库，而不是用阿里的仓库（特别注意）
+```
+		<repository>  
+	    	<id>springsource-repos</id>  
+	    	<name>SpringSource Repository</name>  
+	    	<url>http://repo.spring.io/release/</url>  
+		</repository>
+```
 ### 开发环境搭建
 
 可在项目根目录下执行 `./install.sh` 快速搭建开发环境。如要了解具体的步骤，请看如下文档。
